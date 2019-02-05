@@ -1,0 +1,20 @@
+{
+    "name": "erikfig/curso-composer-son",
+    "description": "Pacote de exemplo do curso de Composer da SON",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erik Figueiredo",
+            "email": "erik.figueiredo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Erikfig\\CursoSON\\": "src"
+        }
+    },
+    "require": {
+        "monolog/monolog": "^1.24"
+    }
+}
